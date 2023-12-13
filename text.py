@@ -94,4 +94,8 @@ b14 = '                                          2. Head back                   
 
 a15 = ['There is a split in the road...',
        'You can hear scratching from the right but nothing from the left']               #west road
-b15 = '  1.Go Right                                                                                                                                               4.Go Left'  
+b15 = '  1.Go Right                                                                            4.Go Left'  
+
+a16 = ['Ahh a load of red mushrooms. I wonder what they have in store...',
+                                                               '"What is the coolest colour for a mushroom?"',]               #red mushrooms 
+b16 = ' 1. Go back                               2. Blue?                    3. You want me to say Red? '       

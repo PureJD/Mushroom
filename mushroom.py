@@ -16,10 +16,9 @@
 
 
 
-
 import pygame                              #pip install pygame
 from win32api import GetSystemMetrics      #pip install pywin32
-from text import a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6,b6,a7,b7,a8,b8,a9,b9,a10,b10,a11,b11,a12,b12,a13,b13,a14,b14,a15,b15                  #import text lines as module 
+from text import a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6,b6,a7,b7,a8,b8,a9,b9,a10,b10,a11,b11,a12,b12,a13,b13,a14,b14,a15,b15,a16,b16               #import text lines as module 
 
 
 pygame.init()
@@ -228,6 +227,12 @@ while True:                     #Main loop. == False to end.
         image = pygame.image.load('Art assets/split.jpg')
         title_messages = a15
         text_surface_body_message = b15
+        text_surface_title_message = title_messages[active_message]
+
+    if x == 2 and y == 1:
+        image = pygame.image.load('Art assets/red1.jpg')
+        title_messages = a16
+        text_surface_body_message = b16
         text_surface_title_message = title_messages[active_message]
 
 
