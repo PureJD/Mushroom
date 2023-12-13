@@ -94,8 +94,26 @@ b14 = '                                          2. Head back                   
 
 a15 = ['There is a split in the road...',
        'You can hear scratching from the right but nothing from the left']               #west road
-b15 = '  1.Go Right                                                                            4.Go Left'  
+b15 = '  1.Go Right          2. Go Back                                                               4.Go Left'  
 
 a16 = ['Ahh a load of red mushrooms. I wonder what they have in store...',
                                                                '"What is the coolest colour for a mushroom?"',]               #red mushrooms 
 b16 = ' 1. Go back                               2. Blue?                    3. You want me to say Red? '       
+
+a17 = ['You have fallen for their lack of shame, picking failed',
+                                                               ]               #red mushrooms fail
+b17 = '                                                                                  3. Go back and think about it '   
+
+a18 = ['Wow, who would have guessed...YOU HAVE OBTAINED A RED MUSHROOM!',
+                                                               ]               #red mushrooms success
+b18 = '                                                          2. Go back '   
+
+a19 = ['You continue North along a dark road. You can keep heading North or...', 
+                                                                             'what is that noise to the West?',
+                                                               ]               #Path off fox
+b19 = '1. Keep on this path                                    3. Follow the noise              4. Head back'   
+
+a20 = ['You encounter a group of Foxes...', 
+                                                                             '"What is the dirtiest animal in the woods?" They say'
+                                                               ]               #encounter with foxes
+b20 = '1. You foxes                                  3. Go back                      4. No animals are dirty'   

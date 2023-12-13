@@ -18,7 +18,7 @@
 
 import pygame                              #pip install pygame
 from win32api import GetSystemMetrics      #pip install pywin32
-from text import a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6,b6,a7,b7,a8,b8,a9,b9,a10,b10,a11,b11,a12,b12,a13,b13,a14,b14,a15,b15,a16,b16               #import text lines as module 
+from text import a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6,b6,a7,b7,a8,b8,a9,b9,a10,b10,a11,b11,a12,b12,a13,b13,a14,b14,a15,b15,a16,b16,a17,b17,a18,b18,a19,b19,a20,b20           #import text lines as module 
 
 
 pygame.init()
@@ -235,7 +235,77 @@ while True:                     #Main loop. == False to end.
         text_surface_body_message = b16
         text_surface_title_message = title_messages[active_message]
 
+    if x == 3 and y == 1:
+        image = pygame.image.load('Art assets/red2.jpg')
+        title_messages = a17
+        text_surface_body_message = b17
+        text_surface_title_message = title_messages[active_message]
 
+    if x == 1 and y == 1:
+        image = pygame.image.load('Art assets/red3.jpg')
+        title_messages = a18
+        text_surface_body_message = b18
+        text_surface_title_message = title_messages[active_message]
+        screen.blit(item_image_rmushroom, (width /12  - (1024 /6), 0))
+        has_gmushroom = True 
+    
+    if x == 2 and y == 3:
+        image = pygame.image.load('Art assets/foxroad.jpg')
+        title_messages = a19
+        text_surface_body_message = b19
+        text_surface_title_message = title_messages[active_message]
+
+    if x == 1 and y == 3:
+        image = pygame.image.load('Art assets/foxes.jpg')
+        title_messages = a20
+        text_surface_body_message = b20
+        text_surface_title_message = title_messages[active_message]
+    
+    if x == 1 and y == 2:
+        image = pygame.image.load('Art assets/foxreward.jpg')
+        title_messages = a21
+        text_surface_body_message = b21
+        text_surface_title_message = title_messages[active_message]
+        screen.blit(item_image_sausage, (width /6  - (1024 /6), 0))
+        has_gmushroom = True
+    
+    if x == 1 and y == 4:
+        image = pygame.image.load('Art assets/foxignore.jpg')
+        title_messages = a22
+        text_surface_body_message = b22
+        text_surface_title_message = title_messages[active_message]
+    
+    if x == 2 and y == 4:
+        image = pygame.image.load('Art assets/uproad.jpg')
+        title_messages = a23
+        text_surface_body_message = b23
+        text_surface_title_message = title_messages[active_message]
+
+    if x == 3 and y == 4:
+        image = pygame.image.load('Art assets/finalroad.jpg')
+        title_messages = a24
+        text_surface_body_message = b24
+        text_surface_title_message = title_messages[active_message]
+
+    if x == 3 and y == 5:
+        image = pygame.image.load('Art assets/wolf.jpg')
+        title_messages = a25
+        text_surface_body_message = b25
+        text_surface_title_message = title_messages[active_message]
+    
+    if x == 2 and y == 5:
+        image = pygame.image.load('Art assets/wolf.jpg')
+        title_messages = a26
+        text_surface_body_message = b26
+        text_surface_title_message = title_messages[active_message]
+    
+
+
+    
+
+
+
+    
 
         
         
